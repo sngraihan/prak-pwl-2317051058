@@ -5,14 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class UserModel extends Model
+class MataKuliah extends Model
 {
     use HasFactory;
 
-    protected $table = 'user';
+    protected $table = 'mata_kuliah';
     protected $guarded = ['id'];
-
-    public function kelas(){
-        return $this->belongsTo(Kelas::class, foreignKey:'kelas_id');
-    }
 }
