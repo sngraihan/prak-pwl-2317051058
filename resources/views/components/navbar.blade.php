@@ -7,7 +7,7 @@
         <div id="nav" class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item"><a class="nav-link" href="/user">List User</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('user.create') }}">Tambah User</a></li>
+                <li class="nav-item"><a class="nav-link" href="/matakuliah">List Mata Kuliah</a></li>
             </ul>
         </div>
     </div>

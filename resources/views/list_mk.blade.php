@@ -10,9 +10,11 @@
         </div>
     @endif
 
-    <h1>Daftar Mata Kuliah</h1>
-    <a href="{{ route('matakuliah.create') }}">Tambah Mata Kuliah Baru</a>
-    <br><br>
+    <div class="d-flex align-items-center justify-content-between">
+        <h1 class="h3 mb-0">Daftar Mata Kuliah</h1>
+        <a href="{{ route('matakuliah.create') }}" class="btn btn-primary">Tambah</a>
+    </div>
+    <br>
 
     <table border="1" cellpadding="10" cellspacing="0">
         <thead>
